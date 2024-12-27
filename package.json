@@ -6,12 +6,20 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "wishlist": "node scripts/wishlist.mjs"
   },
   "dependencies": {
+    "@chakra-ui/react": "^3.2.3",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.3.0",
+    "@mui/x-charts": "^7.23.2",
     "next": "15.1.2",
+    "next-themes": "^0.4.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-icons": "^5.4.0",
     "react-snowfall": "^2.2.0"
   },
   "devDependencies": {
@@ -19,8 +27,11 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "chrome-cookies-secure": "^2.1.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.2",
+    "puppeteer": "^23.11.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }
