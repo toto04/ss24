@@ -64,6 +64,8 @@ jobs:
         run: pnpm run build
         env:
           GITHUB_REPOSITORY: ${{ github.repository }}
+      - name: ls
+        run: ls
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
